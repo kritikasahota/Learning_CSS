@@ -1,0 +1,10 @@
+/* RBG color system */
+body{
+    background-color:rgb(75, 0, 130);
+}
+
+/* HEXADECIMAL color system */
+p{
+    color: #e2c7e2;
+}
+

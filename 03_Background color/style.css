@@ -1,0 +1,17 @@
+body{
+    background-color:indigo;
+}
+
+h1{
+    color: rgb(80, 245, 80);
+}
+
+p{
+    color: rgb(65, 204, 65);
+}
+
+button{
+    color:blueviolet;
+    background-color: aquamarine;
+}
+

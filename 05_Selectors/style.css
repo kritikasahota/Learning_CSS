@@ -1,0 +1,19 @@
+/* UNIVERSAL SELECTOR */
+*{
+    background-color: pink;
+}
+
+/* ELEMENT SELECTOR */
+h1{
+    color: green;
+}
+
+/* CLASS SELECTOR */
+.myclass{
+    color: maroon;
+}
+
+/* ID SELECTOR */
+#heading1{
+    color: blue;
+}

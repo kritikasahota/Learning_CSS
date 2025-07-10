@@ -1,0 +1,73 @@
+/* TEXT-ALIGN */
+#para2{
+    text-align: right;
+}
+
+/* TEXT-DECORATION */
+h1{
+    text-decoration: underline red wavy 5px;
+}
+
+h1{
+    text-decoration: overline red solid 5px;
+}
+
+h1{
+    text-decoration: line-through red double 5px;
+}
+
+h1{
+    text-decoration: underline red dashed 5px;
+}
+
+h1{
+    text-decoration: underline red dotted 5px;
+}
+
+/* FONT WEIGHT */
+#para1{
+    font-weight: bold;
+}
+
+#para1{
+    font-weight: bolder;
+}
+
+#para1{
+    font-weight: normal;
+}
+
+#para1{
+    font-weight: lighter;
+}
+
+#para1{
+    font-weight: 900;  
+}
+
+/* FONT-FAMILY */
+#para1{
+    font-family: arial;
+}
+
+/* LINE-HEIGHT */
+#para3{
+    line-height:50px;
+}
+
+/* TEXT-TRANSFORM */
+.case1{
+    text-transform:uppercase;
+}
+
+.case2{
+    text-transform:lowercase;
+}
+
+.case3{
+    text-transform:capitalize;
+}
+
+.case4{
+    text-transform:none;
+}

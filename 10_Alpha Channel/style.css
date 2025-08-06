@@ -1,0 +1,12 @@
+div{
+    width: 70px;
+    height: 70px;
+    color: white;
+    /* background-color: rgba(255, 0, 0,0.5); */
+    background-color: rgba(255, 0, 0, 1);
+    margin:25px;
+    padding: 25px;
+    display: inline block;
+    text-align:center;
+
+}

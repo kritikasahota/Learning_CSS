@@ -1,0 +1,29 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:coral;
+    color:white;
+    border:2px solid blueviolet;
+    display:inline-block;
+}
+
+/* .box1{
+    position: static;
+} */
+
+/* .box2{
+    position: absolute;
+} */
+
+/* .box3{
+    position: fixed;
+} */
+
+/* .box4{
+    position: relative;
+    top: 10px;
+} */
+
+/* .box5{
+    position: sticky;
+} */

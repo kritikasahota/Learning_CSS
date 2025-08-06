@@ -1,0 +1,18 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:coral;
+    color:white;
+    border:2px solid blueviolet;
+    display:inline-block;
+}
+
+.box1{
+    background-image: url("image.jpg");
+    background-size: cover;
+}
+
+body{
+    background-image: url("image.jpg");
+    background-size: cover;
+}

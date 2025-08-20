@@ -1,93 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="style.css">
-<body>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <body>
     <header>
-    <div class="navbar">
+      <div class="navbar">
         <div class="nav-logo">
-            <div class="logo"></div>
+          <div class="logo"></div>
         </div>
         <div class="nav-options">
-            <div class="nav-search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <p>Search</p>
+          <div class="nav-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p>Search</p>
+          </div>
+          <div class="publish">
+            <i class="fa-solid fa-circle-plus"></i>
+            <p>Publish a ride</p>
+          </div>
+          <div class="profile">
+            <div class="profile-icon">
+              <i class="fa-solid fa-user"></i>
             </div>
-            <div class="publish">
-                <i class="fa-solid fa-circle-plus"></i>
-                <p>Publish a ride</p>
+            <div class="arrow-icon">
+              <i class="fa-solid fa-angle-down"></i>
             </div>
-            <div class="profile">
-                <div class="profile-icon">
-                    <i class="fa-solid fa-user"></i>
-                </div><div class="arrow-icon">
-                    <i class="fa-solid fa-angle-down"></i>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
+      </div>
     </header>
 
     <div class="hero-section">
-        <img src="./hero_img.svg" alt="hero img">
-        <p>Your pick of rides at low prices</p>
+      <img src="./hero_img.svg" alt="hero img" />
+      <p>Your pick of rides at low prices</p>
     </div>
 
     <div class="panel">
-        <div class="panel-all">
-            <div class="panel-opt1">
-                <i class="fa-regular fa-circle"></i>
-                Leaving from
-            </div>
-            <div class="panel-opt2">
-                <i class="fa-regular fa-circle"></i>
-                Going to
-                </div>
-            <div class="panel-opt3">
-                <i class="fa-solid fa-calendar-days"></i>
-                Today
-            </div>
-            <div class="panel-opt4">
-                <i class="fa-solid fa-user"></i>
-                Passenger
-            </div>
-            <div class="panel-opt5">
-               <p>Search</p>
-            </div>
+      <div class="panel-all">
+        <div class="panel-opt1">
+          <i class="fa-regular fa-circle"></i>
+          <input placeholder="Leaving From" class="leaving" />
         </div>
+        <div class="panel-opt2">
+          <i class="fa-regular fa-circle"></i>
+          <input placeholder="Going to" class="Going to" />
+        </div>
+        <div class="panel-opt3">
+          <i class="fa-solid fa-calendar-days"></i>
+          Today
+        </div>
+        <div class="panel-opt4">
+          <i class="fa-solid fa-user"></i>
+          Passenger
+        </div>
+        <div class="panel-opt5">
+          <p>Search</p>
+        </div>
+      </div>
     </div>
 
     <section class="features">
-        <div class="feature">
-            <i class="fa-solid fa-coins"></i>
-            <h3>Your pick of rides at low prices</h3>
-            <p>No matter where you’re going, by bus or carpool, find the perfect ride from our wide range of destinations and routes at low prices.</p>
-        </div>
-        <div class="feature">
-            <i class="fa-regular fa-address-card"></i>
-            <h3>Trust who you travel with</h3>
-            <p>We take the time to get to know each of our members and bus partners. We check reviews, profiles and IDs, so you know who you’re travelling with and can book your ride at ease on our secure platform.</p>
-        </div>
-        <div class="feature">
-            <i class="fa-solid fa-bolt"></i>
-            <h3>Scroll, click, tap and go!</h3>
-            <p>Booking a ride has never been easier! Thanks to our simple app powered by great technology, you can book a ride close to you in just minutes.</p>
-        </div>
+      <div class="feature">
+        <i class="fa-solid fa-coins"></i>
+        <h3>Your pick of rides at low prices</h3>
+        <p>
+          No matter where you’re going, by bus or carpool, find the perfect ride
+          from our wide range of destinations and routes at low prices.
+        </p>
+      </div>
+      <div class="feature">
+        <i class="fa-regular fa-address-card"></i>
+        <h3>Trust who you travel with</h3>
+        <p>
+          We take the time to get to know each of our members and bus partners.
+          We check reviews, profiles and IDs, so you know who you’re travelling
+          with and can book your ride at ease on our secure platform.
+        </p>
+      </div>
+      <div class="feature">
+        <i class="fa-solid fa-bolt"></i>
+        <h3>Scroll, click, tap and go!</h3>
+        <p>
+          Booking a ride has never been easier! Thanks to our simple app powered
+          by great technology, you can book a ride close to you in just minutes.
+        </p>
+      </div>
     </section>
 
-    <div class="secure">
+    <div class="secureParent">
+      <div class="secure">
         <div class="detective_img">
-            <img src="./scam_detective.svg" alt="img">
+          <img src="./scam_detective.svg" alt="img" />
         </div>
-        <h2>Help us keep you safe from scams</h2>
-        <p class="content">At BlaBlaCar, we're working hard to make our platform as secure as it can be. But when scams do happen, we want you to know exactly how to avoid and report them. Follow our tips to help us keep you safe.</p>
-         <p class="more">Learn More</p>
+        <div class="text">
+          <h2 class="title-text">Help us keep you safe from scams</h2>
+          <p class="description-text">
+            At BlaBlaCar, we're working hard to make our platform as secure as
+            it can be. But when scams do happen, we want you to know exactly how
+            to avoid and report them. Follow our tips to help us keep you safe.
+          </p>
+          <div class="learn-more-button">
+            <p class="learn-more-text">Learn More</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-</body>
+    <div class="offerParent">
+      <div class="text">
+        <p>Driving in your car soon?</p>
+        <h5>Let's make this your least expensive journey ever</h5>
+        <div class="offer-ride-button">
+          <button class="offer-ride-text">Offer ride</button>
+        </div>
+      </div>
+      <div class="driver_img">
+        <img src="./driver.svg" alt="img" />
+      </div>
+    </div>
+
+    <div class="rides">
+      <h1>Where do you want to go?</h1>
+      <div class="rideButtons">
+        <button class="rideOptions">
+          <p>New Delhi <i class="fa-solid fa-arrow-right"></i> Chandigarh</p><i class="fa-solid fa-angle-right"></i>
+        </button>
+        <button class="rideOptions">
+          <p>New Delhi <i class="fa-solid fa-arrow-right"></i> Jaipur</p><i class="fa-solid fa-angle-right"></i>
+        </button>
+        <button class="rideOptions">
+          <p>New Delhi <i class="fa-solid fa-arrow-right"></i> Agra</p><i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+      <h5>See are most popular rides</h5>
+    </div>
+
+    <div class="helpCentre">
+      <div class="heading">
+        <h1>Carpool Help Centre</h1>
+      </div>
+      <div class="queries">
+        <div class="query">
+          <p class="question">How do I book a carpool ride?</p>
+          <p class="answer">You can book a carpool ride on our mobile app, or on blablacar.in. Simply search for your destination, choose the date you want to travel and pick the carpool that suits you best! Some...</p>
+          <p class="read-more-option">Read more</p>
+        </div>
+        <div class="query">
+          <p class="question">How do I publish a carpool ride?</p>
+          <p class="answer">You can book a carpool ride on our mobile app, or on blablacar.in. Simply search for your destination, choose the date you want to travel and pick the carpool that suits you best! Some...</p>
+          <p class="read-more-option">Read more</p>
+        </div>
+        <div class="query">
+          <p class="question">How do I cancel my carpool ride?</p>
+          <p class="answer">If you have a change of plans, you can always cancel your carpool ride from the ‘Your rides’ section of our app. The sooner you cancel, the better. That way the driver has time to accept new...</p>
+          <p class="read-more-option">Read more</p>
+        </div>
+        <div class="query">
+          <p class="question">What are the benefits of travelling by carpool?</p>
+          <p class="answer">There are multiple advantages to carpooling, over other means of transport. Travelling by carpool is usually more affordable, especially for longer distances. Carpooling is also more eco-...</p>
+          <p class="read-more-option">Read more</p>
+        </div>
+        <div class="query">
+          <p class="question">How much does a carpool ride cost?</p>
+          <p class="answer">The costs of a carpool ride can vary greatly, and depend on factors like distance, time of departure, the demand of that ride and more. It is also up to the driver to decide how much to charge...</p>
+          <p class="read-more-option">Read more</p>
+        </div>
+        <div class="query">
+          <p class="question">How do I start carpooling?</p>
+          <p class="answer">Carpooling with BlaBlaCar is super easy, and free! Simply sign up for an account and tell us some basic details about yourself. Once you have a BlaBlaCar account, you can start booking or...</p>
+          <p class="read-more-option">Read more</p>
+        </div>
+      </div>
+      <div class="read-help-centre">
+          <p class="read-help-centre-text">Read our Help Centre</p>
+      </div>
+    </div>
+
+    <div class="about">
+      <div class="topRoutes">
+        <h3>Top carpool routes</h3>
+        <div class="routes">
+          <p>Delhi <i class="fa-solid fa-arrow-right"></i> Chandigarh</p>
+        <p>Mumbai <i class="fa-solid fa-arrow-right"></i> Pune</p>
+        <p>Kanpur <i class="fa-solid fa-arrow-right"></i> Lucknow</p>
+        <p>Bengaluru <i class="fa-solid fa-arrow-right"></i> Chennai</p>
+        <p>Pune <i class="fa-solid fa-arrow-right"></i> Mumbai</p>
+        <p>All carpool routes</p>
+        <p>All carpool destinations</p>
+        </div>
+      </div>
+      
+    </div>
+  </body>
 </html>
